@@ -8,7 +8,7 @@ obj = Flask(__name__)
 def welcome():
     return "Welcome to the Flask"
 
-@obj.route('/cal', methods=["GET", "POST"])
+@obj.route('/calculate', methods=["GET", "POST"])
 def math_operator():
     operation = request.json["operation"] # written json cause we are going to request using postman
     number1 = int(request.json["number1"])
@@ -29,4 +29,4 @@ def math_operator():
 print(__name__)
 
 if __name__ == "__main__":
-    obj.run(debug=False)
+    obj.run()

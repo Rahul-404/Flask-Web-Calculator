@@ -14,13 +14,13 @@ This is a simple web calculator application built using Flask, a lightweight Pyt
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/flask-web-calculator.git
+   git clone https://github.com/Rahul-404/Flask-Web-Calculator.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd flask-web-calculator
+   cd Flask-Web-Calculator
    ```
 
 3. Install the required dependencies:
@@ -80,6 +80,9 @@ Content-Type: application/json
   "result": 8
 }
 ```
+#### In: POSTMAN
+
+![POSTMAN](images/postman-interface.PNG)
 
 ## Contributing
 
